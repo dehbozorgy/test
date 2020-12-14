@@ -24,7 +24,7 @@ namespace Git
         {
             InitializeComponent();
         }
-
+        // Event Click
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             new SecondWin().ShowDialog();
