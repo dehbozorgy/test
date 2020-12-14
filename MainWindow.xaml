@@ -11,5 +11,9 @@
         <Button VerticalAlignment="Center" HorizontalAlignment="Center" Content="Second Win"
                 Cursor="Hand"
                 Click="Button_Click"/>
+
+        <Button VerticalAlignment="Center" HorizontalAlignment="Right" Content="Third Win"
+                Cursor="Hand"
+                Click="Button_Click_1"/>
     </Grid>
 </Window>
