@@ -10,24 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Git
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for SecondWin.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SecondWin : Window
     {
-        public MainWindow()
+        public SecondWin()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            new SecondWin().ShowDialog();
         }
     }
 }
